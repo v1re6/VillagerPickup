@@ -1,0 +1,9 @@
+name: VillagerPickup
+version: '${version}'
+main: dev.villagerpickup.VillagerPickupPlugin
+api-version: '26.2'
+description: Shift + right-click a villager to pick it up, right-click a block to place it back down.
+permissions:
+  villagerpickup.use:
+    description: Allows picking villagers up with shift + right-click
+    default: true

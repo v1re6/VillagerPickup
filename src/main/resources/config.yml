@@ -1,0 +1,6 @@
+# A villager that has a job but has never been traded with isn't "locked in":
+# in vanilla it loses its job as soon as it has no workstation of its own.
+# When true, such a villager gets a tiny bit of trade XP when placed so that
+# it keeps its job wherever you put it down (villagers that were already
+# traded with are always kept as they were).
+lock-unlocked-jobs: true
